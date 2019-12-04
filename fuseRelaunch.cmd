@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "/home/susiejojo/Sems/Sem3/VLSID/verilog/Sobel_project/Top_isim_beh.exe" -prj "/home/susiejojo/Sems/Sem3/VLSID/verilog/Sobel_project/Top_beh.prj" "work.Top" "work.glbl" 

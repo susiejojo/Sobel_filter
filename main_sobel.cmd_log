@@ -1,0 +1,30 @@
+xst -intstyle ise -ifn "/home/susiejojo/Sems/Sem3/VLSID/verilog/Sobel_project/main_sobel.xst" -ofn "/home/susiejojo/Sems/Sem3/VLSID/verilog/Sobel_project/main_sobel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1200e-fg320-5 main_sobel.ngc main_sobel.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o main_sobel_map.ncd main_sobel.ngd main_sobel.pcf 
+par -w -intstyle ise -ol high -t 1 main_sobel_map.ncd main_sobel.ncd main_sobel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml main_sobel.twx main_sobel.ncd -o main_sobel.twr main_sobel.pcf 
+xst -intstyle ise -ifn "/home/susiejojo/Sems/Sem3/VLSID/verilog/Sobel_project/main_sobel.xst" -ofn "/home/susiejojo/Sems/Sem3/VLSID/verilog/Sobel_project/main_sobel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1200e-fg320-5 main_sobel.ngc main_sobel.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o main_sobel_map.ncd main_sobel.ngd main_sobel.pcf 
+par -w -intstyle ise -ol high -t 1 main_sobel_map.ncd main_sobel.ncd main_sobel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml main_sobel.twx main_sobel.ncd -o main_sobel.twr main_sobel.pcf 
+xst -intstyle ise -ifn "/home/susiejojo/Sems/Sem3/VLSID/verilog/Sobel_project/main_sobel.xst" -ofn "/home/susiejojo/Sems/Sem3/VLSID/verilog/Sobel_project/main_sobel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1200e-fg320-5 main_sobel.ngc main_sobel.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o main_sobel_map.ncd main_sobel.ngd main_sobel.pcf 
+par -w -intstyle ise -ol high -t 1 main_sobel_map.ncd main_sobel.ncd main_sobel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml main_sobel.twx main_sobel.ncd -o main_sobel.twr main_sobel.pcf 
+xst -intstyle ise -ifn "/home/susiejojo/Sems/Sem3/VLSID/verilog/Sobel_project/main_sobel.xst" -ofn "/home/susiejojo/Sems/Sem3/VLSID/verilog/Sobel_project/main_sobel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1200e-fg320-5 main_sobel.ngc main_sobel.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o main_sobel_map.ncd main_sobel.ngd main_sobel.pcf 
+par -w -intstyle ise -ol high -t 1 main_sobel_map.ncd main_sobel.ncd main_sobel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml main_sobel.twx main_sobel.ncd -o main_sobel.twr main_sobel.pcf 
+xst -intstyle ise -ifn "/home/susiejojo/Sems/Sem3/VLSID/verilog/Sobel_project/main_sobel.xst" -ofn "/home/susiejojo/Sems/Sem3/VLSID/verilog/Sobel_project/main_sobel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1200e-fg320-5 main_sobel.ngc main_sobel.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o main_sobel_map.ncd main_sobel.ngd main_sobel.pcf 
+par -w -intstyle ise -ol high -t 1 main_sobel_map.ncd main_sobel.ncd main_sobel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml main_sobel.twx main_sobel.ncd -o main_sobel.twr main_sobel.pcf 
+xst -intstyle ise -ifn "/home/susiejojo/Sems/Sem3/VLSID/verilog/Sobel_project/main_sobel.xst" -ofn "/home/susiejojo/Sems/Sem3/VLSID/verilog/Sobel_project/main_sobel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1200e-fg320-5 main_sobel.ngc main_sobel.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o main_sobel_map.ncd main_sobel.ngd main_sobel.pcf 
+par -w -intstyle ise -ol high -t 1 main_sobel_map.ncd main_sobel.ncd main_sobel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml main_sobel.twx main_sobel.ncd -o main_sobel.twr main_sobel.pcf 

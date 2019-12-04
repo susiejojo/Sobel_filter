@@ -1,0 +1,38 @@
+Running: /opt/Xilinx/13.4/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o /home/susiejojo/Sems/Sem3/VLSID/verilog/Sobel_project/Top_isim_beh.exe -prj /home/susiejojo/Sems/Sem3/VLSID/verilog/Sobel_project/Top_beh.prj work.Top work.glbl 
+ISim O.87xd (signature 0x8ddf5b5d)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "/home/susiejojo/Sems/Sem3/VLSID/verilog/Sobel_project/paradd.v" into library work
+Analyzing Verilog file "/home/susiejojo/Sems/Sem3/VLSID/verilog/Sobel_project/core_sobel.v" into library work
+Analyzing Verilog file "/home/susiejojo/Sems/Sem3/VLSID/verilog/Sobel_project/testbench_sobel.v" into library work
+Analyzing Verilog file "/home/susiejojo/Sems/Sem3/VLSID/verilog/Sobel_project/mem_sobel.v" into library work
+Analyzing Verilog file "/home/susiejojo/Sems/Sem3/VLSID/verilog/Sobel_project/main_sobel.v" into library work
+Analyzing Verilog file "/home/susiejojo/Sems/Sem3/VLSID/verilog/Sobel_project/Top.v" into library work
+Analyzing Verilog file "/opt/Xilinx/13.4/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "/home/susiejojo/Sems/Sem3/VLSID/verilog/Sobel_project/core_sobel.v" Line 36: Size mismatch in connection of port <cin>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "/home/susiejojo/Sems/Sem3/VLSID/verilog/Sobel_project/core_sobel.v" Line 39: Size mismatch in connection of port <cin>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "/home/susiejojo/Sems/Sem3/VLSID/verilog/Sobel_project/core_sobel.v" Line 44: Size mismatch in connection of port <cin>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "/home/susiejojo/Sems/Sem3/VLSID/verilog/Sobel_project/core_sobel.v" Line 47: Size mismatch in connection of port <cin>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "/home/susiejojo/Sems/Sem3/VLSID/verilog/Sobel_project/core_sobel.v" Line 50: Size mismatch in connection of port <cin>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "/home/susiejojo/Sems/Sem3/VLSID/verilog/Sobel_project/core_sobel.v" Line 33: Size mismatch in connection of port <cin>. Formal port size is 1-bit while actual signal size is 32-bit.
+Completed static elaboration
+Fuse Memory Usage: 95168 KB
+Fuse CPU Usage: 1460 ms
+Compiling module testbench_sobel
+WARNING:Simulator:918 - "/home/susiejojo/Sems/Sem3/VLSID/verilog/Sobel_project/testbench_sobel.v" Line 90. System function $fscanf is used as system task. This system function should have a LHS e.g. x=$fscanf()
+WARNING:Simulator:918 - "/home/susiejojo/Sems/Sem3/VLSID/verilog/Sobel_project/testbench_sobel.v" Line 98. System function $fscanf is used as system task. This system function should have a LHS e.g. x=$fscanf()
+Compiling module mem_sobel
+Compiling module par_addsub
+Compiling module core_sobel
+Compiling module main_sobel
+Compiling module Top
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 7 Verilog Units
+Built simulation executable /home/susiejojo/Sems/Sem3/VLSID/verilog/Sobel_project/Top_isim_beh.exe
+Fuse Memory Usage: 1179676 KB
+Fuse CPU Usage: 1540 ms
+GCC CPU Usage: 2130 ms

@@ -1,0 +1,7 @@
+verilog work "paradd.v"
+verilog work "core_sobel.v"
+verilog work "testbench_sobel.v"
+verilog work "mem_sobel.v"
+verilog work "main_sobel.v"
+verilog work "Top.v"
+verilog work "/opt/Xilinx/13.4/ISE_DS/ISE//verilog/src/glbl.v"

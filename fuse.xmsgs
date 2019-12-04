@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/home/susiejojo/Sems/Sem3/VLSID/verilog/Sobel_project/core_sobel.v" Line 36: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">cin</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/home/susiejojo/Sems/Sem3/VLSID/verilog/Sobel_project/core_sobel.v" Line 39: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">cin</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/home/susiejojo/Sems/Sem3/VLSID/verilog/Sobel_project/core_sobel.v" Line 44: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">cin</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/home/susiejojo/Sems/Sem3/VLSID/verilog/Sobel_project/core_sobel.v" Line 47: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">cin</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/home/susiejojo/Sems/Sem3/VLSID/verilog/Sobel_project/core_sobel.v" Line 50: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">cin</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/home/susiejojo/Sems/Sem3/VLSID/verilog/Sobel_project/core_sobel.v" Line 33: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">cin</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="Simulator" num="918" delta="unknown" >&quot;<arg fmt="%s" index="1">/home/susiejojo/Sems/Sem3/VLSID/verilog/Sobel_project/testbench_sobel.v</arg>&quot; Line <arg fmt="%d" index="2">90</arg>. System function $<arg fmt="%s" index="3">fscanf</arg> is used as system task. This system function should have a LHS e.g. x=$<arg fmt="%s" index="4">fscanf</arg>()
+</msg>
+
+<msg type="warning" file="Simulator" num="918" delta="unknown" >&quot;<arg fmt="%s" index="1">/home/susiejojo/Sems/Sem3/VLSID/verilog/Sobel_project/testbench_sobel.v</arg>&quot; Line <arg fmt="%d" index="2">98</arg>. System function $<arg fmt="%s" index="3">fscanf</arg> is used as system task. This system function should have a LHS e.g. x=$<arg fmt="%s" index="4">fscanf</arg>()
+</msg>
+
+</messages>
+

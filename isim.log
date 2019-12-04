@@ -1,0 +1,21 @@
+ISim log file
+Running: /home/susiejojo/Sems/Sem3/VLSID/verilog/Sobel_project/Top_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/susiejojo/Sems/Sem3/VLSID/verilog/Sobel_project/Top_isim_beh.wdb 
+ISim O.87xd (signature 0x8ddf5b5d)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+WARNING:  For instance s1/sub1/, width 1 of formal port cin is not equal to width 32 of actual constant.
+WARNING:  For instance s1/sub2/, width 1 of formal port cin is not equal to width 32 of actual constant.
+WARNING:  For instance s1/sub3/, width 1 of formal port cin is not equal to width 32 of actual constant.
+WARNING:  For instance s1/sub4/, width 1 of formal port cin is not equal to width 32 of actual constant.
+WARNING:  For instance s1/sub5/, width 1 of formal port cin is not equal to width 32 of actual constant.
+WARNING:  For instance s1/sub6/, width 1 of formal port cin is not equal to width 32 of actual constant.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run 12ms
+# exit 0

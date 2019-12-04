@@ -1,0 +1,2 @@
+verilog work "paradd.v"
+verilog work "core_sobel.v"

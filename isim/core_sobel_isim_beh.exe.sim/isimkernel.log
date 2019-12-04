@@ -1,0 +1,29 @@
+Command line:
+   core_sobel_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  39039
+
+Sun Nov 24 18:28:23 2019
+
+
+ Elaboration Time: 0.03 sec
+
+ Current Memory Usage: 181.748 Meg
+
+ Total Signals          : 57
+ Total Nets             : 386
+ Total Signal Drivers   : 29
+ Total Blocks           : 8
+ Total Primitive Blocks : 7
+ Total Processes        : 36
+ Total Traceable Variables  : 42
+ Total Scalar Nets and Variables : 766
+Total Line Count : 104
+
+ Total Simulation Time: 0.06 sec
+
+ Current Memory Usage: 257.249 Meg
+
+Sun Nov 24 18:28:27 2019
+

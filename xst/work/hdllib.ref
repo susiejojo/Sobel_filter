@@ -1,0 +1,5 @@
+MO par_addsub NULL paradd.v vlg45/par__addsub.bin 1574682153
+MO core_sobel NULL core_sobel.v vlg4D/core__sobel.bin 1574682153
+MO main_sobel NULL main_sobel.v vlg2D/main__sobel.bin 1574682153
+MO magcomp_4 NULL lshift.v vlg2F/magcomp__4.bin 1574681806
+MO magcomp_8 NULL lshift.v vlg33/magcomp__8.bin 1574681806

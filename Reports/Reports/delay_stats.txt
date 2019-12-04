@@ -1,0 +1,112 @@
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 74    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+reset_inv(reset_inv1_INV_0:O)      | NONE(bus_out_0)        | 10    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 13.805ns (Maximum Frequency: 72.436MHz)
+   Minimum input arrival time before clock: 3.851ns
+   Maximum output required time after clock: 4.040ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 13.805ns (frequency: 72.436MHz)
+  Total number of paths / destination ports: 1693554 / 84
+-------------------------------------------------------------------------
+Delay:               13.805ns (Levels of Logic = 15)
+  Source:            row3_0_3 (FF)
+  Destination:       bus_out_0 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: row3_0_3 to bus_out_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              6   0.514   0.721  row3_0_3 (row3_0_3)
+     LUT4:I0->O            2   0.612   0.449  s1/sub3/sum_3_mux0000111_SW0 (N32)
+     LUT3:I1->O            3   0.612   0.454  s1/sub3/sum_4_or00011 (s1/sub3/sum_4_or0001)
+     LUT4:I3->O            2   0.612   0.449  s1/sub3/sum_6_mux00001 (s1/temp3<6>)
+     LUT3:I1->O            1   0.612   0.360  s1/Madd_gxC51 (s1/Madd_gxC5)
+     LUT4:I3->O            1   0.612   0.000  s1/Madd_gx_Madd_lut<7> (s1/Madd_gx_Madd_lut<7>)
+     MUXCY:S->O            1   0.404   0.000  s1/Madd_gx_Madd_cy<7> (s1/Madd_gx_Madd_cy<7>)
+     XORCY:CI->O           2   0.699   0.380  s1/Madd_gx_Madd_xor<8> (s1/gx<8>)
+     INV:I->O              1   0.612   0.000  s1/abs_gx_not0000<8>1_INV_0 (s1/abs_gx_not0000<8>)
+     MUXCY:S->O            1   0.404   0.000  s1/Madd_abs_gx_addsub0000_cy<8> (s1/Madd_abs_gx_addsub0000_cy<8>)
+     XORCY:CI->O           1   0.699   0.387  s1/Madd_abs_gx_addsub0000_xor<9> (s1/abs_gx_addsub0000<9>)
+     LUT3:I2->O            1   0.612   0.360  s1/abs_gx<9>1 (s1/abs_gx<9>)
+     LUT4:I3->O            1   0.612   0.000  s1/Madd_sum_lut<9> (s1/Madd_sum_lut<9>)
+     MUXCY:S->O            0   0.404   0.000  s1/Madd_sum_cy<9> (s1/Madd_sum_cy<9>)
+     XORCY:CI->O           8   0.699   0.646  s1/Madd_sum_xor<10> (s1/sum<10>)
+     LUT4:I3->O            1   0.612   0.000  s1/out<7>1 (out1<7>)
+     FDPE:D                    0.268          bus_out_7
+    ----------------------------------------
+    Total                     13.805ns (9.599ns logic, 4.206ns route)
+                                       (69.5% logic, 30.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 280 / 140
+-------------------------------------------------------------------------
+Offset:              3.851ns (Levels of Logic = 2)
+  Source:            bus_rw (PAD)
+  Destination:       row3_1_0 (FF)
+  Destination Clock: clk rising
+
+  Data Path: bus_rw to row3_1_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             5   1.106   0.568  bus_rw_IBUF (bus_rw_IBUF)
+     LUT4:I2->O           64   0.612   1.081  row3_2_and00001 (row3_2_and0000)
+     FDE:CE                    0.483          row3_1_0
+    ----------------------------------------
+    Total                      3.851ns (2.201ns logic, 1.650ns route)
+                                       (57.2% logic, 42.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 8 / 8
+-------------------------------------------------------------------------
+Offset:              4.040ns (Levels of Logic = 1)
+  Source:            bus_out_7 (FF)
+  Destination:       bus_out<7> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: bus_out_7 to bus_out<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDPE:C->Q             1   0.514   0.357  bus_out_7 (bus_out_7)
+     OBUF:I->O                 3.169          bus_out_7_OBUF (bus_out<7>)
+    ----------------------------------------
+    Total                      4.040ns (3.683ns logic, 0.357ns route)
+                                       (91.2% logic, 8.8% route)
+
+=========================================================================

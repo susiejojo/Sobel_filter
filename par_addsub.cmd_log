@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "/home/susiejojo/Sems/Sem3/VLSID/verilog/Sobel_project/par_addsub.xst" -ofn "/home/susiejojo/Sems/Sem3/VLSID/verilog/Sobel_project/par_addsub.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1200e-fg320-5 par_addsub.ngc par_addsub.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o par_addsub_map.ncd par_addsub.ngd par_addsub.pcf 
+par -w -intstyle ise -ol high -t 1 par_addsub_map.ncd par_addsub.ncd par_addsub.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml par_addsub.twx par_addsub.ncd -o par_addsub.twr par_addsub.pcf 

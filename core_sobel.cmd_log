@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/susiejojo/Sems/Sem3/VLSID/verilog/Sobel_project/core_sobel.xst" -ofn "/home/susiejojo/Sems/Sem3/VLSID/verilog/Sobel_project/core_sobel.syr" 

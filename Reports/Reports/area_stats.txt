@@ -1,0 +1,129 @@
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 7
+ 11-bit adder                                          : 7
+# Registers                                            : 11
+ 1-bit register                                        : 2
+ 8-bit register                                        : 9
+# Xors                                                 : 96
+ 1-bit xor2                                            : 12
+ 1-bit xor3                                            : 84
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 7
+ 11-bit adder                                          : 7
+# Registers                                            : 74
+ Flip-Flops                                            : 74
+# Xors                                                 : 96
+ 1-bit xor2                                            : 12
+ 1-bit xor3                                            : 84
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <main_sobel> ...
+
+Optimizing unit <par_addsub> ...
+
+Optimizing unit <core_sobel> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block main_sobel, actual ratio is 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 74
+ Flip-Flops                                            : 74
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : main_sobel.ngr
+Top Level Output File Name         : main_sobel
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 84
+
+Cell Usage :
+# BELS                             : 318
+#      GND                         : 1
+#      INV                         : 21
+#      LUT1                        : 2
+#      LUT2                        : 16
+#      LUT2_L                      : 8
+#      LUT3                        : 35
+#      LUT3_D                      : 5
+#      LUT4                        : 92
+#      LUT4_D                      : 28
+#      MUXCY                       : 50
+#      MUXF5                       : 4
+#      VCC                         : 1
+#      XORCY                       : 55
+# FlipFlops/Latches                : 74
+#      FDCE                        : 2
+#      FDE                         : 64
+#      FDPE                        : 8
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 75
+#      IBUF                        : 67
+#      OBUF                        : 8
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s1200efg320-5 
+
+ Number of Slices:                      119  out of   8672     1%  
+ Number of Slice Flip Flops:             74  out of  17344     0%  
+ Number of 4 input LUTs:                207  out of  17344     1%  
+ Number of IOs:                          84
+ Number of bonded IOBs:                  76  out of    250    30%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
