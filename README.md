@@ -14,3 +14,14 @@ This implementation of Sobel Filter works on 640 by 480 images. The primary appl
 #### Viewing the output image
 > - run post_processing.m on the output .txt file 
 > - the image with edges detected is saved as result_img.txt
+
+### Experiments performed:
+| Input Image | Output Image |
+| ----------- | ------------  |
+| ![title](https://github.com/susiejojo/Sobel_filter/blob/master/Reports/Inputs%26Matlab_codes/chess.png)      | ![title](https://github.com/susiejojo/Sobel_filter/blob/master/Reports/Outputs/output_chess.png)        |
+| ![title](https://github.com/susiejojo/Sobel_filter/blob/master/Reports/Inputs%26Matlab_codes/sbl.jpg)   | ![title](https://github.com/susiejojo/Sobel_filter/blob/master/Reports/Outputs/output.png)         |
+
+### Area, power, delay statistics:
+- Area Report: https://github.com/susiejojo/Sobel_filter/blob/master/Reports/Reports/area_stats.txt
+- Power Report: https://github.com/susiejojo/Sobel_filter/blob/master/Reports/Reports/power_rep.png
+- Delay Report: https://github.com/susiejojo/Sobel_filter/blob/master/Reports/Reports/delay_stats.txt
